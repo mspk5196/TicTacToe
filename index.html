@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <center>
+        <h1 id="head">Tic Tac Toe</h1>
+    </center>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <center>
+
+
+        <div id="tablediv">
+            <table>
+                <tr>
+                    <th colspan="4" id="turn"></th>
+                </tr>
+                <tr>
+                    <td><input type="text" id="b1" onclick="func1(); func();" readonly></td>
+                    <td><input type="text" id="b2" onclick="func2(); func();" readonly></td>
+                    <td><input type="text" id="b3" onclick="func3(); func();" readonly></td>
+                </tr>
+                <tr>
+                    <td><input type="text" id="b4" onclick="func4(); func();" readonly></td>
+                    <td><input type="text" id="b5" onclick="func5(); func();" readonly></td>
+                    <td><input type="text" id="b6" onclick="func6(); func();" readonly></td>
+                </tr>
+                <tr>
+                    <td><input type="text" id="b7" onclick="func7(); func();" readonly></td>
+                    <td><input type="text" id="b8" onclick="func8(); func();" readonly></td>
+                    <td><input type="text" id="b9" onclick="func9(); func();" readonly></td>
+                </tr>
+                <tr>
+                    <th colspan="4" id="res"></th>
+                </tr>
+                <tr>
+                    <th colspan="4"><button id="reset" onclick="resetall()">Reset</button></th>
+                </tr>
+            </table>
+        </div>
+    </center>
+
+    <script src="logic.js" defer></script>
+</body>
+
+</html>

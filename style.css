@@ -1,0 +1,45 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: aquamarine;
+    color: #333;
+}
+#head{
+    color: black;
+}
+#tablediv{
+    border-radius: 25px;
+    background-color: aliceblue;
+}
+input{
+    background-color: aquamarine;
+    height: 50px;
+    text-align: center;
+    color: black;
+    border-color: black;
+    border-width: 5px;
+    width:50px;
+    border-radius: 15px;
+}
+input:hover{
+    background-color: rgb(127, 252, 129);
+    cursor: pointer;
+}
+#reset{
+    text-align: center;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    height: 50px;
+    width: 60px;
+}
+#reset:hover{
+    background-color: burlywood;
+}
+#res{
+    color: red;
+    font-size: 20px;
+}
+#turn{
+    color: rgb(0, 255, 0);
+}
