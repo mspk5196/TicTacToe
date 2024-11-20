@@ -124,6 +124,20 @@ function func() {
         b5.style.backgroundColor = "red"
         b8.style.backgroundColor = "red"
     }
+    else if (bv3 == 'X' && bv5 == 'X' && bv7 == 'X') {
+        result.innerHTML = "Players X wins"
+
+        b2.disabled = "true"
+        b1.disabled = "true"
+        b4.disabled = "true"
+        b6.disabled = "true"
+        b9.disabled = "true"
+        b8.disabled = "true"
+
+        b3.style.backgroundColor = "red"
+        b5.style.backgroundColor = "red"
+        b7.style.backgroundColor = "red"
+    }
 
 
     else if (bv2 == 'O' && bv5 == 'O' && bv8 == 'O') {
@@ -224,9 +238,29 @@ function func() {
         b5.style.backgroundColor = "red"
         b9.style.backgroundColor = "red"
     }
+    else if (bv3 == 'O' && bv5 == 'O' && bv7 == 'O') {
+        result.innerHTML = "Players O wins"
 
-    else if ((bv1 == 'X' || bv1 == 'O') && (bv2 == 'X' || bv2 == 'O') && (bv3 == 'X' || bv3 == 'O') && (bv4 == 'X' || bv4 == 'O') && (bv5 == 'X' || bv6 == 'O') && (bv7 == 'X' || bv7 == 'O') && (bv8 == 'X' || bv8 == 'O') && (bv9 == 'X' || bv9 == 'O')) {
-        result.innerHTML = "Match Tie"
+        b2.disabled = "true"
+        b1.disabled = "true"
+        b4.disabled = "true"
+        b6.disabled = "true"
+        b9.disabled = "true"
+        b8.disabled = "true"
+
+        b3.style.backgroundColor = "red"
+        b5.style.backgroundColor = "red"
+        b7.style.backgroundColor = "red"
+    }
+
+    else if ((b1 == 'X' || b1 == '0') && (b2 == 'X'
+        || b2 == '0') && (b3 == 'X' || b3 == '0') &&
+        (b4 == 'X' || b4 == '0') && (b5 == 'X' ||
+            b5 == '0') && (b6 == 'X' || b6 == '0') &&
+        (b7 == 'X' || b7 == '0') && (b8 == 'X' ||
+            b8 == '0') && (b9 == 'X' || b9 == '0')) {
+        result
+            .innerHTML = "Match Tie";
     }
     else {
         if (flag == 1) {
